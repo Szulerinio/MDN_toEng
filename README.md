@@ -10,7 +10,7 @@ currently works for MDN and React docs
 1. download files
 
 2. go to opera://extensions/
-2. or chrome://extensions/
+   or chrome://extensions/
 
 3. toggle on developer mode 
 
