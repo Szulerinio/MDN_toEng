@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "MND_pl_to_en",
+    "version":"0.1",
+    "content_scripts":[
+        {
+            "matches": ["*://developer.mozilla.org/pl/*"
+            ],
+            "css":[],
+            "js":["changeMDN.js"]
+        },
+        {
+            "matches": ["*://pl.reactjs.org/*"
+            ],
+            "css":[],
+            "js":["changeReact.js"]
+        }
+    ]
+}
