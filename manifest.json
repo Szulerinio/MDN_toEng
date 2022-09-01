@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "MND_pl_to_en",
-  "version": "0.1",
+  "version": "0.2",
   "content_scripts": [
     {
       "matches": ["*://developer.mozilla.org/pl/*"],
@@ -14,7 +14,7 @@
       "js": ["changeReact.js"]
     },
     {
-      "matches": ["*://*.angular.io/docs"],
+      "matches": ["*://*.angular.io/*", "*://*.ngrx.io/*"],
       "css": [],
       "js": ["changeAngular.js"]
     }
