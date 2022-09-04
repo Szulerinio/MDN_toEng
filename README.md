@@ -34,6 +34,10 @@ save and reload extension in [browser]://extensions/
 
 ### Updates:
 
+#### 2022.09.04
+
+Fix NgRx and Angular not redirecting to current docs page (they were redirecting to first docs page visited).
+
 #### 2022.09.01
 
 Now on older versions of NgRx.io and angular.io a button is added in left top corner that allows for easy redirect to newest version of the documentation.
